@@ -1,0 +1,5 @@
+.tasks__checkbox-containter {
+    width: 90%;
+    display: flex;
+    overflow-wrap: break-word;
+}

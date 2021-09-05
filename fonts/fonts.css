@@ -1,0 +1,26 @@
+@font-face {
+font-family: 'Google Sans';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src:url('GoogleSans-Regular.woff2') format('woff2'),
+    url('GoogleSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src:url('GoogleSans-Medium.woff2') format('woff2'),
+        url('GoogleSans-Medium.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src:url('GoogleSans-Bold.woff2') format('woff2'),
+        url('GoogleSans-Bold.woff') format('woff');
+}

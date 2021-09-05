@@ -1,0 +1,15 @@
+.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: 'Google Sans', sans-serif;
+    color: #212832;
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(206,151,238,1) 0%, rgba(160,214,255,1) 100%);
+}

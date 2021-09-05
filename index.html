@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+    <meta charset='UTF-8'> 
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel = 'stylesheet' href='./pages/index.css'>
+    <title>To Do List</title>
+    </head>
+    <body class='body'>
+        <main class='container'>
+            <form class='list' name='list' autocomplete='off'>
+                <h2 class='list__title'>To Do List</h2>
+                <div class='list__container'>
+                    <input type='text' class='list__input' name='list-task' id='list-task' placeholder='Write down your task...' required>
+                    <button class='list__add-task-btn' type='submit'></button>
+                </div>
+                <ul class='tasks'>
+                    <template id='tasks__template'>
+                        <li class='tasks__item'> 
+                            <div class='tasks__checkbox-containter'>
+                                <input type='checkbox' class='tasks__checkbox' name='task' id='task'>
+                                <label for='task' class='tasks__text'></label>
+                            </div>
+                            <button class='tasks__delete-btn' type='button'></button>
+                        </li>
+                    </template>
+                </ul>
+            </form>
+        </main>
+        <script src='./script/index.js'></script>
+    </body>
+</html>
+
